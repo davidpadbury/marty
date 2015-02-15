@@ -9,7 +9,7 @@ State is a big problem in the UI. Most JS applications have few restrictions on 
 
 Flux is an answer to that problem. At its most basic level it's a set of rules about how to manage your applications state. Specifically who can change it, where they can change it and in what direction those changes should be propagated through your application.
 
-There are 4 things you will need to understand: How to tell the application to change its state ([Action creators](/guides/action-creators/index.html)), How to change the applications state ([Stores](/guides/stores/index.html)), how to tell the view that the state has changed ([State mixins](/guides/state-mixin/index.html)) and how to tie them all together ([Constants](/guides/constants/index.html)).
+There are 4 things you will need to understand: How to tell the application to change its state ([Action creators](/guides/action-creators/index.html)), how to change the applications state ([Stores](/guides/stores/index.html)), how to tell the view that the state has changed ([State mixins](/guides/state-mixin/index.html)) and how to tie them all together ([Constants](/guides/constants/index.html)).
 
 Action Creators are where any changes to your applications state starts. Actions are functions that are responsible for coordinating changes to local and remote state. Actions have a type which is a string describing the action (e.g. "UPDATE\_USER_EMAIL").
 
